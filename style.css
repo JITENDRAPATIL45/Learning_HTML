@@ -27,7 +27,7 @@ nav ul li {
     position: relative;
 }
 
-nav ul li a {
+a:link {
     color: #fff;
     font-size: 1.1rem;
     text-decoration: none;

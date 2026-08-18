@@ -2,49 +2,66 @@
 <html lang="en">
     <head>
         <title>Index Page</title>
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
     </head>
     <body>
         <header>
-            <div>
-                <nav>
-                    <ul>
-                        <a href="index.html"><li>Index</li></a>
-                        <a href="text_format.html"><li>Text Format</li></a>
-                        <a href="list_types.html"><li>List Types</li></a>
-                        <a href="nested_list.html"><li>Nested List</li></a>
-                        <a href="table.html"><li>Table</li></a>
-                        <a href="table_example.html"><li>Table Task</li></a>
-                    </ul>
-                </nav>
-            </div>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="contact.html">Contact</a> |
+                <a href="product.html">Product</a> |
+                <a href="https://www.facebook.com/" target="_blank">Fecebook</a>
+                |
+                <a href="https://www.instagram.com/"
+                    target="_blank">Instagram</a>
+            </nav>
         </header>
-        <h1>Heading Tag Example</h1>
-        <hr>
-        <h1>Welcome evryone </h1>
-        <h2>Welcome evryone </h2>
-        <h3>Welcome evryone</h3>
-        <h4>Welcome evryone</h4>
-        <h5>Welcome evryone</h5>
-        <h6>Welcome evryone</h6>
-        <hr>
-        <hr>
-        <h1>Paragraf tag Example</h1>
-        <hr>
-        <h2>About US</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, sed
-            ex.
-            Consequatur eligendi explicabo tenetur! Libero aut, sed suscipit
-            placeat
-            tempora ex rem magnam voluptatem inventore officia in quam
-            laudantium.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, sed
-            ex.
-            Consequatur eligendi explicabo tenetur! Libero aut, sed suscipit
-            placeat
-            tempora ex rem magnam voluptatem inventore officia in quam
-            laudantium.
-        </p>
+        <!-- main start -->
+        <main>
+            <section>
+                <article>
+                    <h1> car dealership </h1>
+                    <h2>About us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nulla quia quo debitis tenetur nostrum at magni expedita
+                        numquam, soluta beatae repellendus quibusdam, saepe,
+                        corrupti vel quos! Est omnis neque odit!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nulla quia quo debitis tenetur nostrum at magni expedita
+                        numquam, soluta beatae repellendus quibusdam, saepe,
+                        corrupti vel quos! Est omnis neque odit!</p>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h2>Car Images</h2>
+                    <picture>
+                        <img src="images/lamborghini.jpg" alt="lamborghini img"
+                            100%>
+                        <img src="images/porsche.jpg" alt="porsche img" 100%>
+                        <img src="images/Mercedes-AMG GT R.jpg"
+                            alt="mercedes gtr img" width="100%">
+                    </picture>
+                    <figure>
+                        <img src="images/rolls royce.jpg" alt="rolls royce"
+                            width="100%">
+                        <figcaption>Rolls Royce img</figcaption>
+                    </figure>
+                </article>
+            </section>
+            <section>
+                <h2>Audio & Video</h2>
+                <audio controls autoplay loop muted>
+                    <source src="docs/file_example_MP3_1MG.mp3"
+                        type="audio/mp3" />
+                </audio>
+                <hr>
+                <video controls poster="images/porsche.jpg">
+                    <source src="docs/Car drifting mp4.mp4" type="video/mp4"/>
+                </video>
+            </section>
+        </main>
+        <!-- main end -->
     </body>
 </html>

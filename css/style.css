@@ -1,0 +1,77 @@
+body{
+    color: black;
+    background-color: rgb(160, 172, 182);
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    background-color: #2095ae;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2095ae;
+    color: #fff;
+}
+a{
+    color: #fff;
+    background-color: #2095ae;
+}
+
+a:link {
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.contact_form{
+    background-color: rgb(78, 75, 75);
+}
+form{
+    color: white;
+}
+input{
+    background-color:rgb(11, 20, 20) ;
+    color: aliceblue;
+}
+
+h3{
+    margin-top: 10px;
+    margin-left: 0.5rem;
+}
+
+.product1{
+    color: #fff;
+    background-color: rgb(78, 75, 75);
+}
+
+.product2{
+    color: #fff;
+    background-color: rgb(78, 75, 75);
+}
+
+.product3{
+    color: #fff;
+    background-color: rgb(78, 75, 75);
+}
+
+.product4{
+    color: #fff;
+    background-color: rgb(78, 75, 75);
+}
+img{
+    height: 100px;
+    width: 200px;
+    margin-left: 0.5rem;
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(84, 72, 72);
+    color: #fff;
+    padding: 0.02px;
+    font-size: 20px;
+}

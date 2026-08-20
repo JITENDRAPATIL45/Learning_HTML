@@ -27,6 +27,20 @@ a:link {
     font-size: 1.1rem;
     text-decoration: none;
 }
+
+video{
+    height: 600px;
+}
+
+table{
+    color: wheat;
+    background-color: rgb(52, 69, 86);
+}
+
+table th{
+    color: rgb(6, 196, 248);
+}
+
 .contact_form{
     background-color: rgb(78, 75, 75);
 }

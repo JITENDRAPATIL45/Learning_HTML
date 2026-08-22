@@ -1,8 +1,10 @@
-body{
+body {
     color: black;
     background-color: rgb(160, 172, 182);
     font-family: 'Times New Roman', Times, serif;
 }
+
+/* Header start */
 header {
     background-color: #2095ae;
     color: #fff;
@@ -17,7 +19,8 @@ nav {
     background-color: #2095ae;
     color: #fff;
 }
-a{
+
+a {
     color: #fff;
     background-color: #2095ae;
 }
@@ -28,61 +31,67 @@ a:link {
     text-decoration: none;
 }
 
-video{
+/* Header end */
+
+/* index start */
+
+video {
     height: 600px;
 }
 
-table{
+/* index end */
+
+/* services start */
+table {
     color: wheat;
     background-color: rgb(52, 69, 86);
 }
 
-table th{
+table th {
     color: rgb(6, 196, 248);
 }
 
-.contact_form{
+/* services end */
+
+/* contact form start*/
+
+.contact_form {
     background-color: rgb(78, 75, 75);
 }
-form{
+
+form {
     color: white;
 }
-input{
-    background-color:rgb(11, 20, 20) ;
+
+input {
+    background-color: rgb(11, 20, 20);
     color: aliceblue;
 }
 
-h3{
+/* contact form end */
+
+/* pruduct start */
+
+h3 {
     margin-top: 10px;
     margin-left: 0.5rem;
 }
 
-.product1{
+.products {
     color: #fff;
     background-color: rgb(78, 75, 75);
 }
 
-.product2{
-    color: #fff;
-    background-color: rgb(78, 75, 75);
-}
-
-.product3{
-    color: #fff;
-    background-color: rgb(78, 75, 75);
-}
-
-.product4{
-    color: #fff;
-    background-color: rgb(78, 75, 75);
-}
-img{
+img {
     height: 100px;
     width: 200px;
     margin-left: 0.5rem;
     margin-bottom: 10px;
 }
-footer{
+
+/* pruduct start */
+
+footer {
     text-align: center;
     background-color: rgb(84, 72, 72);
     color: #fff;

@@ -10,6 +10,8 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: sticky;
+    top: 0px;
 }
 
 nav {
@@ -40,6 +42,16 @@ video {
 }
 
 /* index end */
+
+/* About Start */
+
+.b_model {
+    border: 4px double;
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+/* About End */
 
 /* services start */
 table {
@@ -77,17 +89,51 @@ h3 {
     margin-left: 0.5rem;
 }
 
-.products {
-    color: #fff;
-    background-color: rgb(78, 75, 75);
-}
-
 img {
     height: 100px;
     width: 200px;
     margin-left: 0.5rem;
     margin-bottom: 10px;
 }
+
+.product1 {
+    color: #fff;
+    background-color: rgb(78, 75, 75);
+}
+
+.product1 img {
+    box-shadow: 4px 3px 7px yellow;
+}
+
+.product2 {
+    color: #fff;
+    background-color: rgb(78, 75, 75);
+}
+
+.product2 img {
+    box-shadow: 4px 3px 7px red;
+
+}
+
+.product3 {
+    color: #fff;
+    background-color: rgb(78, 75, 75);
+}
+
+.product3 img {
+    box-shadow: 4px 3px 7px green;
+
+}
+
+.product4 {
+    color: #fff;
+    background-color: rgb(78, 75, 75);
+}
+
+.product4 img {
+    box-shadow: 4px 3px 7px black;
+}
+
 
 /* pruduct start */
 
